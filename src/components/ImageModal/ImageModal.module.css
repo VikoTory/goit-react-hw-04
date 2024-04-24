@@ -1,0 +1,49 @@
+.content {
+  position: absolute;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: lightsteelblue;
+  border: none;
+  outline: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(46, 47, 66, 0.8);
+  z-index: 1;
+}
+
+
+
+
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: block; /* Ensures the image is not inline and takes the border styling */
+  border: 2px solid #fff; /* Adds a border to the image */
+}
+
+.closeBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1001; /* Ensures the close button is above the image */
+}
